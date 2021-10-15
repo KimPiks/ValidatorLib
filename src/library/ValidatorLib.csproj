@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>KimPix</Company>
+    <Description>A simple library for data validation.</Description>
+    <PackageProjectUrl>https://github.com/K1mP1x/ValidatorLib/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/K1mP1x/ValidatorLib/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>validation data validator rules</PackageTags>
+    <Copyright>https://github.com/K1mP1x/ValidatorLib/blob/main/License.txt</Copyright>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidatorLib", "src\library\ValidatorLib.csproj", "{EC3AC4B5-4425-493C-9D35-800A41530BB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "src\tests\UnitTests\UnitTests.csproj", "{2E50C61C-ECC4-4AC9-85FA-4CC18DDB5FC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks", "src\tests\Benchmarks\Benchmarks.csproj", "{C4EC4DC3-F668-45A3-9D7E-680F8C7335BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{892CD2CB-7448-4E0F-ABFB-03B81CF9AD79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{E8CA51CD-28DF-405B-AC02-9852A56254E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C8F9DE69-5ADD-492D-8196-6E1C9708B9E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{BD8DB0B0-2C92-4AEC-8828-B8E093CAC5ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{7B4FC2A6-09BD-47CC-B746-070FAEA6C22A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF622ECD-20CB-4B7F-B0F5-E26571DF75C7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Changelog.txt = Changelog.txt
+		License.txt = License.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{670FCA3C-2D97-4FCB-BFD1-A3C39D48E003}"
+	ProjectSection(SolutionItems) = preProject
+		documentation.md = documentation.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{A468DC86-7249-48D1-90DD-E2FF6BE60305}"
+	ProjectSection(SolutionItems) = preProject
+		CustomValidatorExample.cs = CustomValidatorExample.cs
+		GuidExample.cs = GuidExample.cs
+		IntExample.cs = IntExample.cs
+		ObjectExample.cs = ObjectExample.cs
+		StringExample.cs = StringExample.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3AC4B5-4425-493C-9D35-800A41530BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3AC4B5-4425-493C-9D35-800A41530BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3AC4B5-4425-493C-9D35-800A41530BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3AC4B5-4425-493C-9D35-800A41530BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E50C61C-ECC4-4AC9-85FA-4CC18DDB5FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E50C61C-ECC4-4AC9-85FA-4CC18DDB5FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E50C61C-ECC4-4AC9-85FA-4CC18DDB5FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E50C61C-ECC4-4AC9-85FA-4CC18DDB5FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EC4DC3-F668-45A3-9D7E-680F8C7335BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EC4DC3-F668-45A3-9D7E-680F8C7335BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EC4DC3-F668-45A3-9D7E-680F8C7335BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EC4DC3-F668-45A3-9D7E-680F8C7335BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC3AC4B5-4425-493C-9D35-800A41530BB2} = {E8CA51CD-28DF-405B-AC02-9852A56254E2}
+		{2E50C61C-ECC4-4AC9-85FA-4CC18DDB5FC2} = {7B4FC2A6-09BD-47CC-B746-070FAEA6C22A}
+		{C4EC4DC3-F668-45A3-9D7E-680F8C7335BD} = {BD8DB0B0-2C92-4AEC-8828-B8E093CAC5ED}
+		{E8CA51CD-28DF-405B-AC02-9852A56254E2} = {892CD2CB-7448-4E0F-ABFB-03B81CF9AD79}
+		{C8F9DE69-5ADD-492D-8196-6E1C9708B9E8} = {892CD2CB-7448-4E0F-ABFB-03B81CF9AD79}
+		{BD8DB0B0-2C92-4AEC-8828-B8E093CAC5ED} = {C8F9DE69-5ADD-492D-8196-6E1C9708B9E8}
+		{7B4FC2A6-09BD-47CC-B746-070FAEA6C22A} = {C8F9DE69-5ADD-492D-8196-6E1C9708B9E8}
+		{670FCA3C-2D97-4FCB-BFD1-A3C39D48E003} = {AF622ECD-20CB-4B7F-B0F5-E26571DF75C7}
+		{A468DC86-7249-48D1-90DD-E2FF6BE60305} = {AF622ECD-20CB-4B7F-B0F5-E26571DF75C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01065A8E-93F8-4B9C-BF9C-266BF8501A74}
+	EndGlobalSection
+EndGlobal
