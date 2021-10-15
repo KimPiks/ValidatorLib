@@ -1,4 +1,4 @@
-* String *
+String
 
 - Validator.Validate(string).IsEmailAddress();
 - Validator.Validate(string).IsPhoneNumber();
@@ -9,17 +9,17 @@
 - Validator.Validate(string).Only(CharType);
 - Validator.Validate(string).Contains(CharType);
 
-* Int *
+Int
 
 - Validator.Validate(int).IsPositive();
 - Validator.Validate(int).IsNegative();
 
-* Guid *
+Guid
 
 - Validator.Validate(Guid).IsEmpty();
 - Validator.Validate(Guid).IsNotEmpty();
 
-* Object *
+Object
 
 - Validator.Validate(object).IsNull();
 - Validator.Validate(object).IsNotNull();
