@@ -24,8 +24,8 @@ Object
 - Validator.Validate(object).IsNull();
 - Validator.Validate(object).IsNotNull();
 
-Custom validator:
+Custom validator
 
-var validator = new CustomValidator<Type>();
-validator.AddRule(x => Validator.Validate(Type).Method());
+var validator = new CustomValidator<Type>();<br>
+validator.AddRule(x => Validator.Validate(Type).Method());<br>
 validator.Validate(model);
