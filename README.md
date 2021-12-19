@@ -4,7 +4,7 @@
 A simple library for data validation.
 ## Documentation
 
-[Documentation](https://github.com/K1mP1x/ValidatorLib/tree/main/docs)
+[Documentation](https://github.com/KimPiks/ValidatorLib/tree/main/docs)
 
   
 ## Installation
@@ -20,11 +20,11 @@ PM> Install-Package ValidatorLib
 
 ## Tests and benchmarks
 
-Tests and benchmarks can be found in [/src/tests/](https://github.com/K1mP1x/ValidatorLib/tree/main/src/tests)
+Tests and benchmarks can be found in [/src/tests/](https://github.com/KimPiks/ValidatorLib/tree/main/src/tests)
   
 ## License
 
-[MIT](https://github.com/K1mP1x/ValidatorLib/blob/main/License.txt)
+[MIT](https://github.com/KimPiks/ValidatorLib/blob/main/License.txt)
 
   
 ## Usage/Examples
@@ -75,7 +75,7 @@ If you have any feedback, please reach out to me at kamilxprorok@gmail.com
   
 ## Authors
 
-- [@KimPix](https://github.com/K1mP1x)
+- [@KimPix](https://github.com/KimPiks)
 
   
 ## Contributing
